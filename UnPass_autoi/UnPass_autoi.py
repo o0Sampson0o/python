@@ -11,7 +11,6 @@ keyboard = Controller();
 usernpass = ast.literal_eval(config("usernpass"));
 
 
-
 def enter_usernpass(media):
     for key in usernpass[media]["nav"]:
         keyboard.press(key);
